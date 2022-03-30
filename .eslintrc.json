@@ -4,6 +4,7 @@
 		"node": true
 	},
 	"extends": [
+		"airbnb",
 		"plugin:react/recommended",
 		"plugin:import/errors",
 		"plugin:import/warnings",
@@ -19,7 +20,7 @@
 		"ecmaVersion": 2018,
 		"sourceType": "module"
 	},
-	"plugins": ["@typescript-eslint"],
+	"plugins": ["@typescript-eslint", "react", "prettier"],
 	"rules": {
 		"prettier/prettier": "error",
 		"no-console": "off",
@@ -32,6 +33,7 @@
 				"ts": "never",
 				"tsx": "never"
 			}
-		]
+		],
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
 	}
 }
