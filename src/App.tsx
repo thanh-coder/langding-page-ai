@@ -3,9 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-	let a = 3;
-	a = 4;
-	console.log(a);
 	return (
 		<div className="App">
 			<header className="App-header">
