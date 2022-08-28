@@ -24,6 +24,7 @@
 	"rules": {
 		"prettier/prettier": "error",
 		"no-console": "off",
+		"react/jsx-props-no-spreading": "off",
 		"import/extensions": [
 			"error",
 			"ignorePackages",
